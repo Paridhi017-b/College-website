@@ -1,0 +1,70 @@
+* {
+     margin:0px;
+     padding:0px;
+}
+ html, body {
+     font-family Roboto, sans-serif, arial;
+     font-size: 14px;
+     color: slateblue;
+}
+ .container {
+     width: 1200px;
+     margin:0px auto;
+}
+ .main-section {
+     width: 100%;
+     float: left;
+     padding:50px 0px 40px 0px;
+}
+ .heading {
+     font-size: 22px;
+     font-weight: 500;
+     border-bottom: 1px solid slateblue;
+     margin-bottom:25px;
+     color: slateblue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:blue ;
+}
+li {
+  float: left;
+}
+
+li a {
+  
+font-size:18px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover:not(.active) {
+  background: Dodgerblue;
+}
+
+.active {
+  background-color: Dodgerblue;
+}
+.logo {
+     width:80%;
+}
+nav {
+     width: 100%;
+     float: right;
+     background: Dodgerblue;
+     padding:15px 0px;
+}
+ nav a {
+     color: white;
+     text-decoration: none;
+     font-size: 17px;
+     border-right: 1px solid blue;
+     padding:2px 20px;
+}
